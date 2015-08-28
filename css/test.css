@@ -1,0 +1,51 @@
+body {
+    font-family: 'fira_sansbook', sans-serif;
+}
+
+section {
+    float: right;
+}
+
+article {
+    background-color: #eff3f7;
+    border-radius: 4px;
+}
+
+h1.title {
+    font-size: 27px;
+    margin: 0;
+    color: #3ba8c0;
+    padding: 13px 22px;
+    border-bottom: 2px solid #3ba8c0;
+    display: inline-block;
+}
+
+article p {
+    padding-left: 55px;
+}
+
+article p:before {
+    content: '';
+    background: url(/img/icon-v.png) no-repeat;
+    width: 41px;
+    height: 36px;
+    padding: 2px 28px;
+    float: left;
+    display: block;
+}
+
+article .icon-bag:before {
+    background-position: 0px 6px;
+}
+
+article .icon-hat:before {
+    background-position: 0px -32px;
+}
+
+article .icon-hat:before {
+    background-position: 0px -32px;
+}
+
+background-position: -41px 0px;
+background-position: -87px 0px;
+background-position: -118px 0px;
